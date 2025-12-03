@@ -1,0 +1,16 @@
+# IntelliJ files
+.idea/
+*.iml
+
+# Build folders
+target/
+out/
+
+# Compiled classes
+*.class
+
+# SQLite databases
+*.sqlite
+
+# Logs
+*.log
