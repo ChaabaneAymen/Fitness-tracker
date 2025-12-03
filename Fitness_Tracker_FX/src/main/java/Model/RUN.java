@@ -10,7 +10,7 @@ public class RUN extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/FXML/SignUp.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/FXML/HomePage.fxml"));
         primaryStage.setTitle("Fitness Tracker");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();

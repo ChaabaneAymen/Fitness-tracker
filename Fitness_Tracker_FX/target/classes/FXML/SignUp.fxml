@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.effect.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="436.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #97bde3, #1f3a4d);" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SignUpController">
+<AnchorPane prefHeight="436.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #97bde3, #1f3a4d);" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SignUpController">
 
 
-    <AnchorPane prefHeight="95.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #0f111a, #041e2e);">
+    <AnchorPane prefHeight="95.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #0f111a, #041e2e);" AnchorPane.bottomAnchor="340.6666666666667" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <children>
             <Label layoutX="129.0" layoutY="10.0" prefHeight="75.0" prefWidth="357.0" text="Create Your Account" textFill="WHITE">
                 <font>
@@ -27,7 +35,7 @@
         </children>
     </AnchorPane>
 
-    <VBox layoutX="50.0" layoutY="120.0" prefWidth="500.0" spacing="15">
+    <VBox layoutX="50.0" layoutY="120.0" prefWidth="500.0" spacing="15" AnchorPane.bottomAnchor="66.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="120.0">
         <GridPane hgap="10" vgap="10">
             <columnConstraints>
                 <ColumnConstraints halignment="RIGHT" prefWidth="150" />

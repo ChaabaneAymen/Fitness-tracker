@@ -3,6 +3,7 @@ module org.example {
     requires javafx.fxml;
     requires java.sql;
     requires jbcrypt;
+    requires java.desktop;
 
     opens Controller to javafx.fxml;
     opens Model to javafx.fxml;
